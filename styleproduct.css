@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(231, 223, 211);
+    text-align: justify;
+}
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px #462727;
+}
+
+.card{
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(212, 195, 170);
+}
+
+.nav-item:hover,.navbar-brand:hover{
+    background-color: #866f6f;
+    cursor: pointer;
+}
+
+
+.sign{
+    border: 1px solid rgb(146, 89, 89);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(146, 89, 89);
+}
+
+.navbar {
+    background-color: rgb(212, 195, 170) !important;
+}
+
+h3,h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px #5a3838;
+}
+.contnt{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prodcts{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    width: calc(33.33% - 1rem);
+    margin: 0.5rem;
+    background-color: rgb(212, 195, 170);
+}
+
+.nav-item:hover,.navbar-brand:hover{
+    background-color: #866f6f;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgb(196, 185, 185);
+}
+
+.toppad{
+    padding-top: 90px;
+}
+
+.dropdown-menu{
+    background-color: rgb(212, 195, 170) !important;
+}
+.dropdown-item:hover{
+    background-color: #866f6f;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #5a4545;
+    height: 150px;
+    width: 100%;margin-top: 30px;
+}
+
+.copy{
+    font-size: x-large;
+    color: antiquewhite;
+    text-align: center;
+}

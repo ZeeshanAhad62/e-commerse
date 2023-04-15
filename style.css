@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(231, 223, 211);
+    text-align: justify;
+}
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px #462727;
+}
+.navbar {
+    background-color: rgb(212, 195, 170) !important;
+    justify-content: right !important;
+}
+
+h3,h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px #5a3838;
+}
+
+
+.sign{
+    border: 1px solid rgb(146, 89, 89);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(146, 89, 89);
+}
+
+
+.padd{
+    padding-top: 30px;
+}
+
+.padde{
+    padding-top: 90px;
+}
+
+.cen{
+    text-align: center;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 30px;
+    background-color: rgb(212, 195, 170);
+    box-shadow: 2px 2px 4px;
+    width: 250px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-truck,.fa-phone,.fa-thumbs-up{
+    font-size: 30px !important;
+}
+.fa-user,.fa-comments,.truck,.fa-user-plus,.fa-sign-in{
+    font-size: 20px !important;
+}
+
+.row{
+    justify-content: center;
+    
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+.card{
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(212, 195, 170);
+}
+
+.nav-item:hover,.navbar-brand:hover{
+    background-color: #866f6f;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgb(196, 185, 185);
+}
+
+.dropd{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-menu{
+    background-color: rgb(212, 195, 170) !important;
+}
+.dropdown-item:hover{
+    background-color: #866f6f;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #5a4545;
+    height: 150px;
+    width: 100%;margin-top: 30px;
+}
+
+.copy{
+    font-size: x-large;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+  

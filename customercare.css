@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(231, 223, 211);
+    text-align: justify;
+}
+
+.navbar {
+    background-color: rgb(212, 195, 170) !important;
+    justify-content: right !important;
+}
+
+.dropd{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-menu{
+    background-color: rgb(212, 195, 170) !important;
+}
+.dropdown-item:hover{
+    background-color: #866f6f;
+    cursor: pointer;
+}
+
+
+.sign{
+    border: 1px solid rgb(146, 89, 89);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(146, 89, 89);
+}
+
+.fa-user-plus,.fa-sign-in{
+    font-size: 20px !important;
+}
+
+  
+.sbar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-top: 150px;
+}
+  
+.sbar1{
+    display: flex;
+    align-items: center;    
+}
+
+.form-control {
+    
+    flex: 1;
+    margin-right: 10px;
+    width: 150px !important;
+}
+
+.middle{
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: #836464;
+}
+
+h3,h2{
+    text-align: center !important;
+    margin-top: 30px;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px;
+    background-color: antiquewhite;
+    height: 180px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: rgb(226, 208, 184);
+}
+
+.footer{
+    background-color: #5a4545;
+    height: 150px;
+    width: 100%;margin-top: 30px;
+    
+}
+
+.copy{
+    font-size: x-large;
+    color: antiquewhite;
+    text-align: center;
+}
